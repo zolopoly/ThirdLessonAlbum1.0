@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ThirdLessonAlbum1.0</string>
+    <string name="palette_title">Палитра рисования</string>
+    <string name="clear_canvas_title">Очистка рисунка</string>
+    <string name="clear_canvas_message">Очистить область рисования (имеющийся рисунок будет удалён)?</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_yes">Да</string>
+    <string name="common_accept">Принять</string>
+    <string name="color_caption">Цвет:</string>
+    <string name="palette_color_select_title">Выбор цвета</string>
+    <string name="app_main_title">ПРИЛОЖЕНИЕ АЛЬБОМ 1.1</string>
 </resources>

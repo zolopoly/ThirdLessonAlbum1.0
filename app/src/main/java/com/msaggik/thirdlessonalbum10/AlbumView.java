@@ -147,4 +147,9 @@ public class AlbumView extends View {
         // обновление представления View
         invalidate();
     }
+
+    // метод задания цвета
+    public void setColor(int color){
+        paint.setColor(color); // задаём свойства кисти
+    }
 }
