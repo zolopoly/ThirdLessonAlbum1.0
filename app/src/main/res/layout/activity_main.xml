@@ -12,7 +12,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="ПРИЛОЖЕНИЕ АЛЬБОМ 1.0"
+        android:text="@string/app_main_title"
         android:layout_marginTop="10dp"
         android:textSize="19sp"
         android:textStyle="bold"
@@ -38,7 +38,7 @@
     <LinearLayout
         android:id="@+id/buttons"
         android:layout_width="70dp"
-        android:layout_height="255dp"
+        android:layout_height="315dp"
         android:orientation="vertical"
         android:gravity="center"
         android:background="@drawable/shape"
@@ -69,6 +69,17 @@
             android:backgroundTintMode="add"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/circle" />
+
+        <ImageButton
+            android:id="@+id/button_draw"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:backgroundTintMode="add"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/draw" />
 
         <ImageButton
             android:id="@+id/button_palette"

@@ -13,4 +13,10 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="DialogPalette" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="windowNoTitle">false</item>
+        <item name="android:textColor">#4C9063</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
 </resources>
